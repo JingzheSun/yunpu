@@ -1,0 +1,21 @@
+html{
+	height: 100%;
+}
+body{
+	background: lightgray;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+#root{
+	height: 730px;
+}
+
+.btn{
+	margin: 5px;
+}
+
+.fa{
+	margin: 10px;
+}
