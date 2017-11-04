@@ -16,10 +16,12 @@ export default class Message extends React.Component{
 
 		var m = ['sha','diao','nao','tan'];
 		return(
-			<div className="weui-cells">
-		        {
-		        	m.map((s,i) => <Msg title={s} key={i}/>)
-		        }
+			<div className="weui-tab__bd-item weui-tab__bd-item--active">
+		    	<div className="weui-cells">
+			        {
+			        	m.map((s,i) => <Msg title={s} key={i}/>)
+			        }
+	        	</div>
 	        </div>
 		)
 	}

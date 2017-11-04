@@ -5,17 +5,14 @@ body{
 	background: lightgray;
 	background-size: cover;
 	background-attachment: fixed;
-
+	height: 100%;
 }
 
 #root{
-	height: 730px;
+	height: 100%;
 }
 
 .btn{
 	margin: 5px;
 }
 
-.fa{
-	margin: 10px;
-}
